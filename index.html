@@ -1,0 +1,70 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Interfaz web de Evolucion</title>
+		<link   rel="shortcut icon" href="images/favicon.ico">
+		<link   type="text/css" href="css/start/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
+		<link   type="text/css" href="css/ui.spinner.css" rel="stylesheet"></style>
+		<link   type="text/css" href="css/highlight.css" rel="stylesheet" media="all"/>
+		<link   type="text/css" href="css/estilo.css" rel="stylesheet"></style>
+		<script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery-ui-1.8.18.custom.min.js"></script>
+		<script type="text/javascript" src="scripts/ui.spinner.js"></script>
+		<script type="text/javascript" src="scripts/mathlib-min.js"></script>
+		<script type="text/javascript" src="scripts/highlight.js"></script>
+		<script type="text/javascript" src="scripts/highcharts.js"></script>
+		<script type="text/javascript" src="scripts/exporting.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+   </head>
+   <body>
+		<div id="main">
+			<h2>Interfaz web de Evolucion</h2>
+			<div id="layer">
+				<div id="accordion">
+					<div>
+						<h3><a href="#">Parametros</a></h3>
+						<div id='divParametros'>
+						</div>
+					</div>
+					<div>
+						<h3><a href="#">Auxiliares</a></h3>
+						<div id='divAuxiliares'></div>
+					</div>
+					<div>
+						<h3><a href="#">Niveles</a></h3>
+						<div id='divNiveles'></div>
+					</div>
+					<div>
+						<h3><a href="#">Flujos</a></h3>
+						<div id='divFlujos'></div>
+					</div>
+					<div>
+						<h3><a href="#">Multiplicadores</a></h3>
+						<div id='divMultiplicadores'></div>
+					</div>
+				</div>
+				<div id="codigo">
+					
+				</div>
+			</div>
+			<div id="visualizador">
+			
+			</div>
+			<fieldset id="control_temp" class="ui-widget ui-widget-content">
+				<legend class="ui-widget-header ui-corner-all">
+					<div>Control temporal</div>
+				</legend>
+				<div class="campo">
+					<label>Tiempo inicial:</label><input id='ti' type="text" class='ui-widget-content'>
+				</div>
+				<div class="campo">
+					<label>Tiempo final:</label><input id='tf' type="text" class='ui-widget-content'>
+				</div>
+				<div class="campo">
+					<label>Paso de simulaci&oacute;n:</label><input id='dt' type="text" class='ui-widget-content'>
+				</div>
+			</fieldset>
+		</div>
+   </body>
+</html>
+
